@@ -1,15 +1,3 @@
-/*
-Theme Name: zero-base
-Description: my first original theme
-Theme URI: テーマの URL
-Author: kazuya sasakura
-Author URI: 作った人の URL
-Version: 1.0
-License: ライセンス
-License URI: ライセンスの URL
-*/
-
-
+/* line 1, style.scss */
 h1 {
-  color: red;
-}
+  color: blue; }
