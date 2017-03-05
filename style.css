@@ -1,25 +1,32 @@
-/*
-Theme Name: zero-base
-Description:テーマの説明
-Theme URI: テーマの URL
-Author: kazuya
-Author URI: 作った人の URL
-Version: 1.0
-License: ライセンス
-License URI: ライセンスの URL
-*/
-
-
-
-
-
-
-
-
-/* line 4, style.scss */
-h1 {
-  color: blue; }
-
-/* line 13, style.scss */
+/* line 11, style.scss */
 footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* line 25, style.scss */
+.sidebar-logo a {
+  background: #000 !important;
+  color: #fff !important;
+  padding: 8px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 50px;
+  display: block;
   text-align: center; }
+
+/* line 42, style.scss */
+.sidebar-contents {
+  margin-top: 50px; }
+  /* line 46, style.scss */
+  .sidebar-contents ul {
+    padding-left: 0; }
+  /* line 49, style.scss */
+  .sidebar-contents li {
+    list-style: none;
+    margin-bottom: 10px; }
+  /* line 54, style.scss */
+  .sidebar-contents a {
+    color: #000;
+    font-weight: bold; }

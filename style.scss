@@ -1,9 +1,7 @@
 
 // index.php
 
-h1 {
-  color: blue;
-}
+
 
 
 
@@ -12,4 +10,49 @@ h1 {
 
 footer {
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+// sidebar.php
+
+
+.sidebar-logo {
+
+a {
+
+    background: #000!important;
+    color: #fff!important;
+    padding: 8px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+
+  }
+
+}
+
+
+.sidebar-contents {
+
+  margin-top: 50px;
+
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+
+  }
+  a {
+    color: #000;
+    font-weight: bold;
+  }
 }

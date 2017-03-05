@@ -3,28 +3,24 @@
 
 <div class="col-md-4">
 
+  <div class="sidebar-main">
+
+    <div class="sidebar-logo">
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a>
+
+    </div>
+
+    <div class="sidebar-contents">
+      <ul>
+        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" >HOME</a></li>
+        <?php wp_nav_menu( array ( 'menu' ) ); ?>
+
+      </ul>
+
+    </div>
 
 
-
-
-
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-<h2>sidebar</h2>
-
-
-
+</div>
 
 
 </div>

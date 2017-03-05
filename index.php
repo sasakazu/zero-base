@@ -5,7 +5,7 @@
 
 
 <div class="col-md-8">
-  <h1>col-md-8</h1>
+  <h1>index</h1>
 </div>
 
 
