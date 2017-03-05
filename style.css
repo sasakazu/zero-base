@@ -1,3 +1,25 @@
-/* line 1, style.scss */
+/*
+Theme Name: zero-base
+Description:テーマの説明
+Theme URI: テーマの URL
+Author: kazuya
+Author URI: 作った人の URL
+Version: 1.0
+License: ライセンス
+License URI: ライセンスの URL
+*/
+
+
+
+
+
+
+
+
+/* line 4, style.scss */
 h1 {
   color: blue; }
+
+/* line 13, style.scss */
+footer {
+  text-align: center; }
