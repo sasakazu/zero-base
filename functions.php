@@ -16,3 +16,7 @@ add_action( 'wp_enqueue_scripts', 'my_bootstrap_scripts' );
 
 
 add_theme_support( 'menus' );
+
+
+// アイキャッチ画像を有効にする。
+add_theme_support('post-thumbnails'); 

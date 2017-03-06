@@ -67,3 +67,9 @@ footer {
   .sidebar-contents a {
     color: #000;
     font-weight: bold; }
+
+/* line 123, style.scss */
+.about-main {
+  margin-top: 50px;
+  padding-left: 65px !important;
+  margin-bottom: 200px; }
