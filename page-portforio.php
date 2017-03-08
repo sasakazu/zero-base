@@ -8,6 +8,19 @@
 
 
 
+<?php if(have_posts()): while(have_posts()): the_post(); ?>
+
+
+  <div class="col-md-8">
+
+
+            <?php the_content(); ?>
+          </div>
+
+<?php endwhile; endif; ?>
+
+
+
 
 
 
