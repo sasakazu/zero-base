@@ -8,12 +8,14 @@
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
-  <div class="col-md-8">
+  <div class="col-md-8 contact-main">
+    <h1><?php the_title(); ?></h1>
 
-    <h2><?php the_title(); ?></h1>
+    <div class="contact-contents">
 
-    <?php the_content(); ?>
+    <p><?php the_content(); ?></p>
 
+    </div>
   </div>
 
 <?php endwhile; endif; ?>

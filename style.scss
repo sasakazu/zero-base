@@ -1,7 +1,10 @@
 // common
 
+
+
 body {
 word-wrap: break-word;
+
 }
 
 
@@ -66,9 +69,17 @@ word-wrap: break-word;
 // footer.php
 
 footer {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    background: #666;
+    width: 100%;
+    left: 0;
+    color: #fff;
+    letter-spacing: 1px;
+    opacity: .8;
 }
 
 
@@ -118,10 +129,80 @@ a {
   }
 }
 
-// about.php
+// page-about.php
 
 .about-main {
   margin-top: 50px;
   padding-left: 65px!important;
   margin-bottom: 200px;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+
+}
+
+// page-contact.php
+
+.contact-main {
+
+  padding-left: 30px;
+  margin-bottom: 100px;
+
+
+
+
+  h1 {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    font-weight: bold;
+
+  }
+}
+
+.contact-contents {
+
+    margin: 0 auto;
+    width: 70%;
+
+    label {
+      margin-bottom: 12px;
+
+    }
+
+    p {
+
+    }
+
+input[type="text"] {
+  margin-top: 10px;
+}
+
+
+
+}
+
+
+// single.php
+
+
+
+.post {
+
+  margin-top: 130px;
+  margin-bottom: 300px;
+
+  p {
+    margin-top: 25px;
+  }
+}
+
+.post-date {
+  p {
+    color: #7a7a7a;
+    font-size: 18px;
+
+  }
 }

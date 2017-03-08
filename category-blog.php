@@ -1,7 +1,9 @@
+
 <?php get_header(); ?>
-
-
 <?php get_sidebar(); ?>
+
+
+
 
 
 <div class="col-md-8">
@@ -16,8 +18,7 @@
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
           <div class="entry_main">
-                <?php the_excerpt(); ?>
-              </a>
+            <?php the_excerpt(); ?>
           </div>
 
           <p class="state">
@@ -33,6 +34,11 @@
 
 
 </div>
+
+
+
+
+
 
 
 

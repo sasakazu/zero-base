@@ -1,12 +1,11 @@
 
 
-  <div class="row">
-    <div class="col-md-12">
 
-    <footer>copyright kazuya sasakura</footer>
+</div>
 
-  </div>
-  </div>
+    <footer>
+     copyright &copy kazuya sasakura
+    </footer>
 
 
 
