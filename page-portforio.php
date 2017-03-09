@@ -11,11 +11,11 @@
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
 
 
-  <div class="col-md-8">
+  <div class="col-md-8 portofolio-main">
 
+    <?php the_content(); ?>
 
-            <?php the_content(); ?>
-          </div>
+  </div>
 
 <?php endwhile; endif; ?>
 

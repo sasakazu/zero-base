@@ -47,7 +47,7 @@ word-wrap: break-word;
 
   p {
     margin-top: 38px;
-    margin-bottom: 53px;
+    margin-bottom: 103px;
   }
 
 }
@@ -79,7 +79,7 @@ footer {
     left: 0;
     color: #fff;
     letter-spacing: 1px;
-    opacity: .8;
+    // opacity: .9;
 }
 
 
@@ -205,4 +205,12 @@ input[type="text"] {
     font-size: 18px;
 
   }
+}
+
+
+// page-portofolio.php
+
+.portofolio-main {
+  margin-top: 130px;
+
 }

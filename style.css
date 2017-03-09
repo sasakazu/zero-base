@@ -26,7 +26,7 @@ body {
 /* line 48, style.scss */
 .entry_main p {
   margin-top: 38px;
-  margin-bottom: 53px; }
+  margin-bottom: 103px; }
 
 /* line 57, style.scss */
 .state a {
@@ -43,8 +43,7 @@ footer {
   width: 100%;
   left: 0;
   color: #fff;
-  letter-spacing: 1px;
-  opacity: .8; }
+  letter-spacing: 1px; }
 
 /* line 93, style.scss */
 .sidebar-logo a {
@@ -119,3 +118,7 @@ footer {
 .post-date p {
   color: #7a7a7a;
   font-size: 18px; }
+
+/* line 213, style.scss */
+.portofolio-main {
+  margin-top: 130px; }
